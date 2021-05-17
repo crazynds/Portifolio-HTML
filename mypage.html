@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Henrique</title>
+    <link rel="shortcut icon" href="images/curriculo.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <style>
+    .copyleft {
+        display:inline-block;
+        transform: rotate(180deg);
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-image: linear-gradient(#f0f0f0, #a0a0c0);;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="d-flex justify-content-center align-items-center" style="width:100%">
+            <div>
+                <a class="navbar-brand" href="#"><img src="images/curriculo.png" width="40" height="40" alt=""></a>
+            </div>
+            <div>
+                <ul class="navbar-nav mr-auto" style="flex-direction:initial;">
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#">Apresentação</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#">História</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="#">Resumo</a>
+                    </li>
+                    <li class="nav-item active dropdown mr-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Informações
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Contato</a>
+                        <a class="dropdown-item" href="#">Sobre</a>
+                    </li>
+                </ul>
+            <div>
+        </div>
+    </nav>
+
+    <div class="container p-5" >
+        <div class="row" >
+            <div class="col-8">
+                <h3 class="mb-3">
+                    Apresentação
+                </h3>
+                <p class="text-justify">
+                    Olá, me chamo Luiz Henrique, atualmente tenho <span id="age">N</span> anos <small>(Valor calculado por <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JS</a>, então está atualizado)</small>,
+                    e meu passatempo atual é desenvolver desenvolver softwares de entretenimento e resoluções de problemas da computação atual.
+                </p>
+                <p class="text-justify">
+                    Meu objetivo de carreira é seguir na área da informática, no desenvolvimento de sistema, como também desenvolver aplicações
+                    em baixo nível voltado para servidores. Tenho interesse em sempre adquirir novos conhecimentos e em desenvolver softwares
+                    que auxiliem as atividades rotineiras.
+                    <!-- <blockquote class="text-center">
+                        <em>"Se alguma ativade pode ser melhorada, então que seja melhorada."</em>
+                    </blockquote> -->
+                </p>
+                <p class="text-justify">
+                    Lido bem com lógica, matemática e sempre busco pensar racionalmente. Gosto bastante de compartilhar e descobrir novos conhecimentos e técnicas voltados a área da tecnologia.
+                    Busco de manter meu ambiente de trabalho organizado e gosto de desenvolver softwares em equipe.
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="images/foto.jpeg" class="rounded img-fluid img-thumbnail mt-2 mb-2 mr-2" alt="Imagem de um cara bonitão">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="card bg-dark text-center" style="width:100%">
+                <h4 class="card-title text-white mt-2">Alguns Softwares Desenvolvidos</h4>
+                <div class="card-body">
+                    <div id="carousel" class="carousel slide" data-ride="carousel" style="width:100%">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block mx-auto" height="340px" src="images/Jogo 2016.png" alt="Jogo feito em VisualG">
+                                <div class="carousel-caption d-none d-md-block text-dark">
+                                    <h5>Dungeons & Dragons (2016)</h5>
+                                    <p><b>Primeiro Jogo e software desenvolvido usando a linguagem visualG</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/Jogo 2017 2.png" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Jogo da Cobrinha (2016)</h5>
+                                    <p><b>Primeiro jogo implementando recursos de orientação a objetos de C++</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/Jogo 2017 1.png" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block text-info">
+                                    <h5>The Cave (2017)</h5>
+                                    <p><b>Jogo desenvolvido em C++. Objetivo em chegar mais longe passado por cada rodada na caverna e comprando itens para evitar morrer pros montros.</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/Jogo 2017 3.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Mini RPG (2017)</h5>
+                                    <p><b>Jogo feito em java. Toda a engine foi programada manualmente sem o auxilio de nenhuma biblioteca</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/Jogo 2017 all.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Software Auxiliar (2018)</h5>
+                                    <p><b>Software feito em C++ que englobava jogos e ferramentas a serem usadas no dia a dia.</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/Site 2017.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block text-warning">
+                                    <h5>Kilobro (2018)</h5>
+                                    <p><b>Primeiro projeto utilizando PHP. Foi desenvolvido uma rede social, e posteriormente foi refeiro usando o Laravel e recursos de web sockets para chats instantaneos</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/SOOS 2019.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>System Out OS (2019)</h5>
+                                    <p><b>Sistem Operacional desenvolvido com o propósito de aprendizado. Possuia recursos de Multi-Thread, Swap, Memory Manager, paginação, etc...</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/PsicoApp 2020.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>PsicoApp (2020)</h5>
+                                    <p><b>Sistema para atendimento psicologico. Feito usando Laravel e primeira aplicação que utilizei o Vue2</b></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto" height="340px" src="images/PCare 2021.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block text-dark">
+                                    <h5>PCare (2021-2022?)</h5>
+                                    <p><b>Aplicação atualmente em desenvolvimento. Utiliza Laravel, Vue2, Vuetify. Implementa suporte para todas as páginas e textos em 3 linguas (Pt-BR, Es, En)</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev text-black" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next text-black" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="container" style="">
+                <div class="row mx-0">
+                    <h3 class="mb-3">
+                        Resumo
+                    </h3>
+                </div>
+                <div class="row mx-0">
+                    <div class="col-6 p-3">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Tecnologia</th>
+                                    <th scope="col">Comecei a estudar</th>
+                                    <th scope="col">Experiencia</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">C/C++</th>
+                                    <td>2016</td>
+                                    <td>2 projetos + 2 Jogos</td> <!-- QuartzVm, System Out OS | Mini Engine 3D, Simple 2d run game -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Java</th>
+                                    <td>2017</td>
+                                    <td>3 projetos + 1 Jogo</td> <!-- UniqueCriptoCoin, WebServer HTTP/1.1, Android App PsicoApp | MiniRPG 2d -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">SQL</th>
+                                    <td>2017</td>
+                                    <td>5 projetos</td> <!-- PCare, PsicoApp, Escola Nextline, Marketplace,UniqueCriptoCoin -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">NASM</th>
+                                    <td>2018</td>
+                                    <td>1 projetos</td> <!-- System Out OS -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">HTML/CSS/JS</th>
+                                    <td>2018</td>
+                                    <td>8 projetos <small>*(inclui esse site)<small></td> <!-- KiloBro,PCare, PsicoApp, Escola Nextline, Marketplace, Site Curriculo, Ordernador em JS visual -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">PHP</th>
+                                    <td>2018</td>
+                                    <td>4 projetos</td> <!-- PCare, PsicoApp, Escola Nextline, Marketplace -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Python</th>
+                                    <td>2019</td>
+                                    <td>0</td> <!-- -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Vue2</th>
+                                    <td>2020</td>
+                                    <td>2 Sistemas Web</td> <!-- PsicoApp, PCare -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Bootstrap</th>
+                                    <td>2019</td>
+                                    <td>3 Projetos <small>*(inclui esse site)<small></td> <!-- KiloBro, PsicoApp, Site Curriculo -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Laravel</th>
+                                    <td>2020</td>
+                                    <td>3 Projetos</td> <!-- Pcare, PsicoApp, KiloBro -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">AdonisJS</th>
+                                    <td>2020</td>
+                                    <td>1 Projetos</td> <!-- BestPet -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">React</th>
+                                    <td>2020</td>
+                                    <td>1 Projetos</td> <!-- Beltrame -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Linux Server (Debian)</th>
+                                    <td>2018</td>
+                                    <td>3 anos</td></td> <!-- Easynet -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">RouterOS</th>
+                                    <td>2019</td>
+                                    <td>2 anos</td></td> <!-- Easynet -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Linux Server (Centos)</th>
+                                    <td>2019</td>
+                                    <td>Apenas instalação de DNS e manutenção</td></td> <!-- Easynet -->
+                                </tr>
+                                <tr>
+                                    <th scope="row">Mikrotik</th>
+                                    <td>2018</td>
+                                    <td>MTCNA,MTCRE,MTCINE</td></td> <!-- Easynet -->
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-6 p-3">
+                        <p class="text-justify p-2">
+                            Eu entrei no mundo da programação quando iniciei o curso técnico de desenvolvimento de sistemas no IFRS, em meados de 2016.
+                            Lá eu consegui aprender e reforçar a minha lógica de progração em programas de baixo nivel, e com a ajuda dos ótimos professores que lá estavam.
+                        </p>
+                        <p class="text-justify p-2">
+                            Durante o curso trabalhei em uma empresa te telecomunicações chamada Easynet, e aprendi diversas coisas relacionadas a servidores linux e gerenciamento de rede.
+                        </p>
+                        <p class="text-justify p-2">
+                            Atualmente estou cursando graduação em Sistemas de Informações durante o turmo da manhã e uma parte da tarde.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-8 p-3">
+                <h3 class="mb-3">
+                    História
+                </h3>
+            </div>
+            <div class="col-4 p-3">
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start bg-secondary text-white">
+        <!-- Section: Social media -->
+        <section
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+            <!-- Left -->
+            <div class="ml-5 d-none d-lg-block">
+            <span>Minhas redes sociais:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div class ="mr-5">
+            <a href="https://www.youtube.com/channel/UC-5gme9-GSPvCRQjXOAfUBw" class="mr-5 text-reset">
+                <i class="fab fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/luiz-henrique-b-044aba11a/" class="mr-5 text-reset">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/crazynds" class="mr-5 text-reset">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="https://luizhenrique.nextline.com.br/" class="mr-5 text-reset">
+                <i class="fa fa-globe fa-lg"></i>
+            </a>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-heart mr-2"></i>Agradecimentos
+                    </h6>
+                    <p>
+                        Obrigado por ler até aqui. Hoje tudo que consegui foi graças a ajuda dos meus amigos e meu
+                        pai que sempre me motivou e me auxiliou a seguir o caminho dos estudos e que se não fosse
+                        ele, não saberia o que eu realmente gosto de fazer.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Projetos Públicos
+                    </h6>
+                    <p>
+                        <a href="http://app.psicologafabianeobregon.com.br/" class="text-reset">PsicoApp</a>
+                    </p>
+                    <p>
+                        <a href="https://escola.nextline.com.br/" class="text-reset">Escola Nextline</a>
+                    </p>
+                    <p>
+                        <a href="https://pcare.nextline.com.br/" class="text-reset">PCare</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/crazynds/Quartz-VM-Wordcode" class="text-reset">Quartz VM</a>
+                    </p>
+                    <p>
+                        <a href="https://escola.nextline.com.br/sort/" class="text-reset">Ordenadores</a>
+                    </p>
+                    <p>
+                        <a href="https://luizhenrique.nextline.com.br/" class="text-reset">Meu Site</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Contatos
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Rua 17 de maio, Camobi<br>Santa Maria, RS, Brasil</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        lh.lagonds@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +51 99765-6418</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <span class="copyleft">&copy;</span> 2021 Copyleft:
+            <a class="text-reset fw-bold" href="https://escola.nextline.com.br/">Nextline</a>
+        </div>
+    </footer>
+
+    <script>
+        var age = document.getElementById('age')
+        function getAge(dateString) {
+            var today = new Date();
+            var birthDate = new Date(2001,06,28);
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+        age.textContent=getAge('28/06/2001')
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
